@@ -15,7 +15,7 @@ To install PortPi, you will need wired Internet connection. DO NOT use wireless 
 Log into your Raspberry Pi and run the following command in Terminal:
 
 ```bash
-curl -sL https://git.io/fAxXT | sudo -E bash -
+curl -sL https://git.io/fAxPd | sudo -E bash -
 ```
 
 The installation process will take only a couple minutes.
