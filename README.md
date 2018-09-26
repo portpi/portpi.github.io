@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## Welcome to PortPi
 
-You can use the [editor on GitHub](https://github.com/portpi/portpi.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+PortPi is a project to make your Raspberry Pi portable. Once installed, your Raspberry Pi will provide a hotspot to allow you connect and manage it. If your Raspberry Pi connects to Internet through ethernet (wired), you will also be able to connect to Internet by connecting to your Raspberry Pi's AP. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Under development
 
-### Markdown
+Currently PortPi project is under active development. If you would like to try it out, please follow the instructions below.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Prerequisite
 
-```markdown
-Syntax highlighted code block
+To install PortPi, you will need wired Internet connection. DO NOT use wireless Internet!
 
-# Header 1
-## Header 2
-### Header 3
+### Installation
 
-- Bulleted
-- List
+Log into your Raspberry Pi and run the following command in Terminal:
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+curl -sL https://raw.githubusercontent.com/portpi/installer/master/install.sh | sudo -E bash -
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The installation process will take only a couple minutes.
 
-### Jekyll Themes
+### Testing
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/portpi/portpi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Tested on device: Raspberry Pi 3 Model B.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Tested on OS: RASPBIAN STRETCH WITH DESKTOP / LITE with version June 2018
