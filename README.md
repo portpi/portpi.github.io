@@ -1,6 +1,6 @@
 ## Welcome to PortPi
 
-PortPi is a project to make your Raspberry Pi portable. Once installed, your Raspberry Pi will provide a hotspot to allow you connect and manage it. If your Raspberry Pi connects to Internet through ethernet (wired), you will also be able to connect to Internet by connecting to your Raspberry Pi's AP. 
+PortPi is a project to make your Raspberry Pi portable for real and much easier to manage. Once installed, your Raspberry Pi will provide a hotspot to allow you connect and manage it. Wherever you go, you can bring your Raspberry Pi only. Power it on and manage it with your smart devices. If your Raspberry Pi connects to Internet through ethernet (wired), you will also be able to share the Internet connection on your smart devices. 
 
 ### Under development
 
